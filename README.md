@@ -9,6 +9,7 @@ matplotlib
 
 ### Hot to install ?
 
+#### Install with conda virtual environment: 
 ```sh
 git clone https://github.com/AydzhanAhmedov/pygame-snake-rl.git
 cd pygame-snake-rl
@@ -20,3 +21,12 @@ pip install matplotlib ipython
 python agent.py
 ```
 
+#### Normal install:
+```sh
+git clone https://github.com/AydzhanAhmedov/pygame-snake-rl.git
+cd pygame-snake-rl
+pip install pygame
+pip install torch torchvision
+pip install matplotlib ipython
+python agent.py
+```
