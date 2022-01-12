@@ -17,5 +17,6 @@ conda activate env_snake_rl
 pip install pygame
 pip install torch torchvision
 pip install matplotlib ipython
+python agent.py
 ```
 
